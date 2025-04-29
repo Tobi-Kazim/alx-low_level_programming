@@ -1,1 +1,1 @@
-Starting from the basics
+Starting from the basics or foundation: Preprocessor, compiler, assembler and linker.
