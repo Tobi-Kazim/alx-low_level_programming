@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /*
  * main = Entry point
-
+ *
  * return 0 = Alway true
-
+ *
+ * desc = Generates random numbers
  */
 
 int main(void)
