@@ -2,14 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main = Entry point
+/**
+ * main - Entry point
  *
- * return 0 = Alway true
+ * Return: 0 on success
  *
- * desc = Generates random numbers
  */
-
 int main(void)
 {
 	int n;
