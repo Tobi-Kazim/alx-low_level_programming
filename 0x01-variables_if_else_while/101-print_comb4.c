@@ -9,7 +9,8 @@
 int main(void)
 {
 	int i, j, k;
-	for (i = 0;  i <= 8; i++)
+
+	for (i = 0;  i <= 7; i++)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
@@ -18,7 +19,7 @@ int main(void)
 				putchar('0' + i);
 				putchar('0' + j);
 				putchar('0' + k);
-				if ((i != 8 || j != 9) && (i != 8 || k != 9))
+				if (i != 7 || j != 8 || k != 9)
 				{
 					putchar(',');
 					putchar(' ');
